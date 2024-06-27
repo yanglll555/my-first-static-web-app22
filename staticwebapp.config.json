@@ -1,16 +1,4 @@
 {
-  "routes": [
-    {
-      "route": "/anonymous/*",
-      "allowedRoles": ["anonymous"]
-    },
-    {
-      "route": "/authenticated/*",
-      "allowedRoles": ["authenticated"]
-    },
-    {
-      "route": "/custom/*",
-      "allowedRoles": ["custom"]
-    }
-  ]
+  "route": "/login",
+  "redirect": "/.auth/login/aad"
 }
